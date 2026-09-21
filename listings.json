@@ -8,7 +8,10 @@
     "price": "KES 2.75M",
     "negotiable": true,
     "condition": "Very clean, well maintained",
-    "features": ["Double cab", "3.0L diesel"],
+    "features": [
+      "Double cab",
+      "3.0L diesel"
+    ],
     "accent": "amber",
     "urgencyTag": null,
     "image": ""
@@ -22,7 +25,10 @@
     "price": "KES 2.65M",
     "negotiable": true,
     "condition": "Accident free, well maintained",
-    "features": ["Double cab", "3.0L diesel"],
+    "features": [
+      "Double cab",
+      "3.0L diesel"
+    ],
     "accent": "sky",
     "urgencyTag": null,
     "image": ""
@@ -36,7 +42,9 @@
     "price": "KES 930K",
     "negotiable": false,
     "condition": "Original paint, well maintained",
-    "features": ["1500 capacity"],
+    "features": [
+      "1500 capacity"
+    ],
     "accent": "emerald",
     "urgencyTag": null,
     "image": ""
@@ -50,7 +58,12 @@
     "price": "KES 1.2M",
     "negotiable": true,
     "condition": "Extremely clean, original paint, dark interior",
-    "features": ["Reverse camera", "Alloy rims", "Fog lights", "New tyres"],
+    "features": [
+      "Reverse camera",
+      "Alloy rims",
+      "Fog lights",
+      "New tyres"
+    ],
     "accent": "rose",
     "urgencyTag": "Hot Deal",
     "image": ""
@@ -64,7 +77,10 @@
     "price": "KES 1.79M",
     "negotiable": true,
     "condition": "Original paint",
-    "features": ["Original paint", "Accident free"],
+    "features": [
+      "Original paint",
+      "Accident free"
+    ],
     "accent": "sky",
     "urgencyTag": null,
     "image": ""
@@ -78,9 +94,36 @@
     "price": "KES 2.45M",
     "negotiable": true,
     "condition": "Clean interior, original paint",
-    "features": ["Trade-in accepted", "Bank/Sacco finance", "New tyres", "Ready documents"],
+    "features": [
+      "Trade-in accepted",
+      "Bank/Sacco finance",
+      "New tyres",
+      "Ready documents"
+    ],
     "accent": "amber",
     "urgencyTag": null,
     "image": ""
+  },
+  {
+    "title": "Toyota Hiace Super Gl",
+    "year": "2012 Model",
+    "transmission": "Automatic",
+    "engine": "3000CC",
+    "mileage": "Not specified",
+    "price": "Ksh 1.45M",
+    "negotiable": true,
+    "condition": "Well maintained",
+    "features": [
+      "4-speed automatic gearbox paired with the 1KD-FTV 4-cylinder turbocharged diesel engine"
+    ],
+    "accent": "amber",
+    "urgencyTag": null,
+    "images": [
+      "assets/toyota-hiace-super-gl-2012 Model-i5du-1.jpg",
+      "assets/toyota-hiace-super-gl-2012 Model-i5du-2.jpg",
+      "assets/toyota-hiace-super-gl-2012 Model-i5du-3.jpg",
+      "assets/toyota-hiace-super-gl-2012 Model-i5du-4.jpg",
+      "assets/toyota-hiace-super-gl-2012 Model-i5du-5.jpg"
+    ]
   }
 ]
