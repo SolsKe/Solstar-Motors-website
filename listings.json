@@ -198,5 +198,29 @@
       "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-4.jpg",
       "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-5.jpg"
     ]
+  },
+  {
+    "title": "TOYOTA LANDCRUISER 79 SERIES PICK UP EX UN",
+    "year": "2017",
+    "transmission": "5 Speed Manual",
+    "engine": "4200CC DESIEL",
+    "mileage": "Low mileage 83670K",
+    "price": "KES 4.9M",
+    "negotiable": true,
+    "condition": "Mechanically intact Excellent suspension",
+    "features": [
+      "Trade-in accepted",
+      "Bank/Sacco finance",
+      "Low mileage"
+    ],
+    "accent": "emerald",
+    "urgencyTag": null,
+    "images": [
+      "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-1.jpg",
+      "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-2.jpg",
+      "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-3.jpg",
+      "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-4.jpg",
+      "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-5.jpg"
+    ]
   }
 ]
