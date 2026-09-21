@@ -125,5 +125,30 @@
       "assets/toyota-hiace-super-gl-2012 Model-i5du-4.jpg",
       "assets/toyota-hiace-super-gl-2012 Model-i5du-5.jpg"
     ]
+  },
+  {
+    "title": "2007 Suzuki Escudo 2.0L 4WD",
+    "year": "2007 Model",
+    "transmission": "4-speed automatic",
+    "engine": "2000cc",
+    "mileage": "Not specified",
+    "price": "Ksh 800K",
+    "negotiable": true,
+    "condition": "Rugged compact SUV,",
+    "features": [
+      "Pristine interior",
+      "climate control",
+      "premium safety",
+      "and excellent fuel economy"
+    ],
+    "accent": "sky",
+    "urgencyTag": null,
+    "images": [
+      "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-1.jpg",
+      "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-2.jpg",
+      "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-3.jpg",
+      "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-4.jpg",
+      "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-5.jpg"
+    ]
   }
 ]
