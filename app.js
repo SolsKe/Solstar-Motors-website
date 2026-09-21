@@ -15,17 +15,32 @@ const ICONS = {
 
 let ALL_LISTINGS = [];
 
-function cardHTML(l){
+function cardHTML(l, idx){
   const a = ACCENTS[l.accent] || ACCENTS.amber;
   const waText = encodeURIComponent(`Hi Solstar Motors, I'm interested in the ${l.title} (${l.year}) listed at ${l.price}.`);
-  const photo = l.image
-    ? `<img src="${l.image}" alt="${l.title}">`
-    : ICONS.car;
+
+  // Supports either the new "images": [...] array (multi-photo, with a mini gallery)
+  // or the older single "image": "..." field, so existing listings keep working unchanged.
+  const images = (l.images && l.images.length) ? l.images : (l.image ? [l.image] : []);
+  const hasGallery = images.length > 1;
+
+  let photoHTML;
+  if(images.length === 0){
+    photoHTML = ICONS.car;
+  } else if(!hasGallery){
+    photoHTML = `<img src="${images[0]}" alt="${l.title}">`;
+  } else {
+    photoHTML = `
+      <img src="${images[0]}" alt="${l.title}" class="gal-img" data-idx="0" data-images='${JSON.stringify(images)}'>
+      <button class="gal-btn gal-prev" data-card="${idx}" aria-label="Previous photo">‹</button>
+      <button class="gal-btn gal-next" data-card="${idx}" aria-label="Next photo">›</button>
+      <span class="gal-count">1/${images.length}</span>`;
+  }
 
   return `
   <div class="card">
     ${l.urgencyTag ? `<div class="card-tag" style="background:${a.text}">${l.urgencyTag}</div>` : ""}
-    <div class="card-photo">${photo}</div>
+    <div class="card-photo" data-card-id="${idx}">${photoHTML}</div>
     <div class="card-body">
       <div class="card-title-row">
         <div class="card-title">${l.title}</div>
@@ -61,8 +76,22 @@ function render(list){
     return;
   }
   empty.style.display = "none";
-  grid.innerHTML = list.map(cardHTML).join("");
+  grid.innerHTML = list.map((l,i) => cardHTML(l,i)).join("");
 }
+
+// Gallery arrow clicks (event delegation so it works for every card)
+document.getElementById("grid").addEventListener("click", (e) => {
+  const btn = e.target.closest(".gal-btn");
+  if(!btn) return;
+  const wrap = btn.closest(".card-photo");
+  const img = wrap.querySelector(".gal-img");
+  const images = JSON.parse(img.dataset.images);
+  let idx = parseInt(img.dataset.idx, 10);
+  idx = btn.classList.contains("gal-next") ? (idx + 1) % images.length : (idx - 1 + images.length) % images.length;
+  img.dataset.idx = idx;
+  img.src = images[idx];
+  wrap.querySelector(".gal-count").textContent = `${idx+1}/${images.length}`;
+});
 
 fetch("listings.json")
   .then(r => r.json())
