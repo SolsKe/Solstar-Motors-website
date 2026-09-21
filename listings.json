@@ -150,5 +150,29 @@
       "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-4.jpg",
       "assets/2007-suzuki-escudo-2-0l-4wd-2007 Model-uivy-5.jpg"
     ]
+  },
+  {
+    "title": "Mitsubishi Outlander  – Buy & Drive",
+    "year": "2010",
+    "transmission": "Automatic",
+    "engine": "2,400cc petrol engine",
+    "mileage": "164037K",
+    "price": "Ksh 1.3M",
+    "negotiable": true,
+    "condition": "Accident-Free",
+    "features": [
+      "This SUV offers the perfect mix of high performance",
+      "spacious comfort",
+      "and excellent stability for city driving and long up-country trips."
+    ],
+    "accent": "rose",
+    "urgencyTag": null,
+    "images": [
+      "assets/mitsubishi-outlander-buy-drive-2010-1u73-1.jpg",
+      "assets/mitsubishi-outlander-buy-drive-2010-1u73-2.jpg",
+      "assets/mitsubishi-outlander-buy-drive-2010-1u73-3.jpg",
+      "assets/mitsubishi-outlander-buy-drive-2010-1u73-4.jpg",
+      "assets/mitsubishi-outlander-buy-drive-2010-1u73-5.jpg"
+    ]
   }
 ]
