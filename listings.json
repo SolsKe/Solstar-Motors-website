@@ -247,5 +247,28 @@
       "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-4.jpg",
       "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-5.jpg"
     ]
+  },
+  {
+    "title": "2010 Toyota Noah Valvematic",
+    "year": "2010",
+    "transmission": "Automatic",
+    "engine": "2,000cc Petrol",
+    "mileage": "KCN",
+    "price": "Ksh 1,100,000",
+    "negotiable": true,
+    "condition": "Clean dark interior | Excellent mechanical health",
+    "features": [
+      "7-seater cabin with ample legroom",
+      "dual-zone climate control."
+    ],
+    "accent": "sky",
+    "urgencyTag": "Hot Deal",
+    "images": [
+      "assets/2010-toyota-noah-valvematic-2010-tyw7-1.jpg",
+      "assets/2010-toyota-noah-valvematic-2010-tyw7-2.jpg",
+      "assets/2010-toyota-noah-valvematic-2010-tyw7-3.jpg",
+      "assets/2010-toyota-noah-valvematic-2010-tyw7-4.jpg",
+      "assets/2010-toyota-noah-valvematic-2010-tyw7-5.jpg"
+    ]
   }
 ]
