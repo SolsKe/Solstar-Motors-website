@@ -222,5 +222,30 @@
       "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-4.jpg",
       "assets/toyota-landcruiser-79-series-pick-up-ex-un-2017-iq7h-5.jpg"
     ]
+  },
+  {
+    "title": "2025 Isuzu D-Max Single Cab",
+    "year": "2025 Model",
+    "transmission": "Manual 4WD (Four-Wheel Drive)",
+    "engine": "1,898cc (1.9L) turbocharged diesel",
+    "mileage": "Low Mileage 63227K",
+    "price": "Ksh 4,100,000 (Negotiable)",
+    "negotiable": false,
+    "condition": "Well-Maintained | 100% Original Paint | Excellent mechanical health",
+    "features": [
+      "Built to handle the toughest commercial",
+      "agricultural",
+      "or fleet tasks",
+      "Bank Finance Acceptable"
+    ],
+    "accent": "amber",
+    "urgencyTag": null,
+    "images": [
+      "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-1.jpg",
+      "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-2.jpg",
+      "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-3.jpg",
+      "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-4.jpg",
+      "assets/2025-isuzu-d-max-single-cab-2025 Model-iqh6-5.jpg"
+    ]
   }
 ]
