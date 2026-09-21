@@ -174,5 +174,29 @@
       "assets/mitsubishi-outlander-buy-drive-2010-1u73-4.jpg",
       "assets/mitsubishi-outlander-buy-drive-2010-1u73-5.jpg"
     ]
+  },
+  {
+    "title": "2013 Honda Insight RS Edition – Premium Hybrid Efficiency",
+    "year": "2013",
+    "transmission": "Automatic 2WD",
+    "engine": "1,500cc Petrol Hybrid (IMA System)",
+    "mileage": "094355K",
+    "price": "Ksh 970,000",
+    "negotiable": true,
+    "condition": "a refined dark interior theme.",
+    "features": [
+      "Sportier body kit",
+      "ggressive front grille",
+      "premium alloy wheels"
+    ],
+    "accent": "emerald",
+    "urgencyTag": null,
+    "images": [
+      "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-1.jpg",
+      "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-2.jpg",
+      "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-3.jpg",
+      "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-4.jpg",
+      "assets/2013-honda-insight-rs-edition-premium-hybrid-efficiency-2013-vm5h-5.jpg"
+    ]
   }
 ]
